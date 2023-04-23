@@ -1,0 +1,15 @@
+.profile-container {
+    width: 500px;
+    height: 250px;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    @include tablet {
+     width: 90%;
+    }
+}

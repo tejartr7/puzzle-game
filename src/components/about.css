@@ -1,0 +1,48 @@
+.parent {
+    border: 0px solid #fff;
+    padding: 20px;
+}
+
+.child {
+    width: 40%;
+    float: left;
+    height: 70vh;
+    padding: 10px;
+    border: 2px solid purple;
+    margin: 5vh 0 0 5vw;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+
+.rule-head {
+    text-align: center;
+    color: black;
+}
+
+.about {
+    margin: 0 10% 0 10%;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    border: 2px solid purple;
+}
+
+@media screen and (max-width:1000px) {
+    .child {
+        width: 80%;
+        float: left;
+        height: 70vh;
+        padding: 10px;
+        border: 2px solid purple;
+        margin: 5vh 0 0 5vw;
+        border-radius: 25px;
+        background-color: white;
+        color: black;
+        align-items: center;
+        justify-content: center;
+    }
+    .green{
+        margin-left: 20vw;
+    }
+}
